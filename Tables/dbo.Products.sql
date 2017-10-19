@@ -7,6 +7,7 @@ CREATE TABLE [dbo].[Products] (
 		[Name]          [nvarchar](max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		[Quantity]      [int] NULL,
 		[Price]         [float] NULL,
+		[test]          [nvarchar](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 		CONSTRAINT [PK_Products]
 		PRIMARY KEY
 		CLUSTERED
